@@ -17,3 +17,6 @@ Now execute the script file to run the Kēmu-Kupu app:
 ```
 > ./Kemu-Kupu.sh
 ```
+## Game Picture
+
+![](images/kemu-kupu-image.png)
