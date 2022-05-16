@@ -1,0 +1,66 @@
+.background {
+	-fx-background-color: #F8F0E3;
+}
+
+
+.buttons {
+	-fx-background-radius: 100;
+	-fx-background-color: #CFB997;
+}
+
+.choice-box {
+	-fx-background-color: #CFB997;
+	-fx-font-size: 20pt;
+	-fx-text-full: #000000;
+	-fx-pref-width: 450;
+	-fx-pref-height: 30;
+}
+
+.gameModeButton {
+	-fx-background-radius: 100;
+	-fx-background-color: #D1F3C5;
+}
+
+.choice-box .context-menu { 
+	-fx-background-color: #CFB997; 
+	-fx-pref-width: 449; 
+	-fx-pref-height: 300; 
+	-fx-opacity: 0.75; 
+	-fx-text-fill: #000000; 
+	-fx-font-size: 20pt;
+}
+.choice-box .menu-item:focused { 
+	-fx-background-color: white;
+}
+.choice-box .menu-item > .label { 
+	-fx-text-fill: #000000; 
+	-fx-font-size: 20pt;
+}
+.choice-box .menu-item:focused > .label { 
+	-fx-text-fill: #000000;
+}
+
+.choice-box .label {
+	-fx-text-fill: #565656;
+}
+
+.buttonsForMacrons {
+	-fx-background-color: #CFB997;
+	-fx-border-width: 1 1 1 1;
+	-fx-border-color: #c7ad86;
+}
+
+.myLink{
+	-fx-text-fill: #363636;
+}
+
+.persistent-prompt:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
+}
+.no-prompt {
+    -fx-prompt-text-fill: transparent !important;
+}
+
+.text-field {
+	-fx-font-size: 13pt;
+}

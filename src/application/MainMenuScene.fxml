@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView fitHeight="413.0" fitWidth="641.0" layoutX="45.0" layoutY="-45.0" opacity="0.59" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Wood_Banner.png" />
+         </image>
+      </ImageView>
+      <Text fill="#433b3b" layoutX="59.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kemu Kupu" textAlignment="CENTER" wrappingWidth="580.1708984375">
+         <font>
+            <Font name="Daniel Bold" size="72.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="471.0" fitWidth="725.0" layoutX="-2.0" layoutY="329.0" opacity="0.8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Painted_River.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnQuit" layoutX="247.0" layoutY="554.0" mnemonicParsing="false" onAction="#clickQuit" prefHeight="55.0" prefWidth="207.0" styleClass="buttons" stylesheets="@application.css" text="Quit">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Button fx:id="btnNewQuiz" layoutX="247.0" layoutY="400.0" mnemonicParsing="false" onAction="#clickNewQuiz" prefHeight="55.0" prefWidth="207.0" styleClass="buttons" stylesheets="@application.css" text="Games Module">
+         <font>
+            <Font size="22.0" />
+         </font></Button>
+      <Text fill="#433b3b" layoutX="183.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-" wrappingWidth="254.22998046875">
+         <font>
+            <Font name="Daniel" size="86.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnHelp" layoutX="247.0" layoutY="478.0" mnemonicParsing="false" onAction="#showHelpManual" prefHeight="55.0" prefWidth="207.0" styleClass="buttons" stylesheets="@application.css" text="Help">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

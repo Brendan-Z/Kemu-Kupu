@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" styleClass="background" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GamesModuleController">
+   <children>
+      <ImageView fitHeight="344.0" fitWidth="514.0" layoutX="118.0" layoutY="333.0" opacity="0.73" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Taniwha.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="261.0" fitWidth="768.0" layoutY="543.0" opacity="0.3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Ocean.png" />
+         </image>
+      </ImageView>
+      <Text fill="#4d4d4d" layoutX="60.0" layoutY="116.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Games Module" textAlignment="CENTER" wrappingWidth="580.1708984375">
+         <font>
+            <Font name="Daniel Bold" size="72.0" />
+         </font>
+      </Text>
+      <ChoiceBox fx:id="choiceBoxLists" layoutX="39.0" layoutY="222.0" prefHeight="47.0" prefWidth="451.0">
+         <styleClass>
+            <String fx:value="optionMenu" />
+            <String fx:value="menu-item" />
+            <String fx:value="context-menu" />
+            <String fx:value="label" />
+         </styleClass></ChoiceBox>
+      <Button fx:id="btnSubmit" defaultButton="true" layoutX="518.0" layoutY="222.0" mnemonicParsing="false" onAction="#startQuiz" prefHeight="47.0" prefWidth="167.0" styleClass="buttons" text="Begin Quiz">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor></Button>
+      <Text layoutX="39.0" layoutY="193.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Please select a category of words from the drop-down box to be tested on">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="204.0" fitWidth="249.0" layoutX="-39.0" layoutY="602.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="204.0" fitWidth="249.0" layoutX="397.0" layoutY="611.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="190.0" layoutX="276.0" layoutY="645.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="163.0" fitWidth="190.0" layoutX="147.0" layoutY="655.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Grass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="204.0" fitWidth="249.0" layoutX="565.0" layoutY="607.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Grass.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnReturn" layoutX="263.0" layoutY="709.0" mnemonicParsing="false" onAction="#returnClicked" prefHeight="47.0" prefWidth="174.0" styleClass="buttons" text="Return to Menu">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="btnGameMode" defaultButton="true" layoutX="518.0" layoutY="333.0" mnemonicParsing="false" onAction="#switchGameMode" prefHeight="47.0" prefWidth="167.0" styleClass="gameModeButton" text="Mode: Quiz">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
